@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 40px;
+    box-shadow: 0 0 20px brown;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    width: 41%;
+    justify-content: center;
+    margin: 0 auto;
+    font-style:italic;
+    
+}
+body{
+    background-color: brown;
+    margin-top: 50px;
+    height: 100vh;
+}
+.container{
+    display:flex;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    
+
+}
+input{
+    height: 80px;
+    width: 550px;
+    padding: 15px;
+}
+.first-row, .second-row, .third-row, .fourth-row{
+    gap: 1px;
+    flex: 1;
+    background-color: brown;
+    box-shadow: 0 0 25px;
+    padding: 20px;
+    text-align: center;
+    border-top-right-radius: 25px;
+    
+    
+}
+
+input[type=button]{
+    text-align: center;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 0 0 4px;
+
+}
+input[type=button]:hover{
+    background-color: tomato;
+    color: white;
+}
+.fourth-row .equals{
+    width: 250px;
+}
+input[type=text]{
+    font-weight: bolder;
+    font-size: 25px;
+}
+ 
